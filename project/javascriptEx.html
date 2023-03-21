@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Exjavascript</title>
+  </head>
+  <body>
+    <h4>대입 연산자</h4>
+    <script>
+      var a = b = c = d = e =14;
+      a+=5;
+      b-=5;
+      c*=5;
+      d/=5;
+      e%=5;
+      document.write("<p> a=b=c=d=e=14</p>");
+      document.write("a+=5;--> "+a+"<br/>");
+      document.write("b-=5;-->"+b+"<br/>");
+    </script>
+    <h4>조건 연산자, 연결 연산자</h4>
+    <script>
+      var a,b,c,d;
+      //document.write("<h4>조건 연산자:</h4>");
+      //a=prompt("첫번째 숫자를 입력하세요","");
+      //console.log(a);
+      //b=prompt("두번째 숫자를 입력하세요", "");
+      a=5; b=4;
+      var result = "입력받은 두 숫자" +a+"," +b+"중에서 ";
+      var max = a>b ? a:b;
+      document.write(result+"최댓값은 "+max+"입니다.<br/>");
+    </script>
+    <h5>switch문</h5>
+    <script>
+      //today=prompt("요일을 입력하세요, 월/화/수/목/금/토/일","");
+      switch(today){
+        case "월" : document.write("월요일 입니다.</br>");
+        case "화" : document.write("화요일 입니다.</br>");
+        case "수" : document.write("수요일 입니다.</br>");
+        case "목" : document.write("목요일 입니다.</br>");
+        case "금" : document.write("금요일 입니다.</br>");
+        case "토" : document.write("토요일 입니다.</br>");
+        case "일" : document.write("토요일 입니다.</br>");
+        default : document.write("잘못된 입력입니다.</br>");
+      }
+    </script>
+    <h5>반복문</h5>
+    <script>
+      var i, j, msg;
+      for(i=1; i<10; i++){
+          document.write(i+"o<br/>");
+      }
+      document.write("<br/>");
+    </script>
+    <h5> continue break</h5>
+    <script>
+      var n, sum=0;
+      for(n=1; n<20; n++){
+        if(n%2==0){
+          continue;
+        }
+        document.write(" <"+n+">");
+        sum+=n;
+        if(sum>=100){
+          document.write("의 합은"+sum);
+          break;
+        }
+      }
+    </script>
+  </body>
+</html>
