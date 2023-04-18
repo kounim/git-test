@@ -41,10 +41,9 @@
       ></q-checkbox>
     </q-card-section>
 
-    <!--내용저장부분-->
-     <q-card-section v-if="editing" class="col-12 col-md-3">
+    <q-card-section v-if="editing" class="col-12 col-md-3">
       <q-btn outline rounded color="primary" @click="saveItem()" label="아이템 저장"></q-btn>
-     </q-card-section>
+    </q-card-section>
   </q-card-section>
 
 
@@ -75,14 +74,9 @@
           >
         </q-card-section>
   </q-item-section>
-
-
-
 </template>
 
-
 <script>
-
 export default {
   name:"ShoppingList",
   title:"쇼핑 리스트",
@@ -96,7 +90,7 @@ export default {
       ],
       editing:false,
       newItem:"",
-      newItemHightPriority:false,
+      newItemHighPriority:false,
     }
   },
   computed : {
