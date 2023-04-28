@@ -68,6 +68,13 @@ const linksList = [
     icon: 'home',
     link: '/todo'
   },
+  {
+    title: '리마인더',
+    caption: '달력에 예정을 추가',
+    icon: 'home',
+    link: '/reminder'
+  },
+
   /*
   {
     title: 'Docs',

@@ -9,16 +9,22 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "axios": "^1.2.1",
-    "pinia": "^2.0.11",
+    "@popperjs/core": "^2.11.7",
     "@quasar/extras": "^1.0.0",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.2.3",
     "core-js": "^3.6.5",
+    "pinia": "^2.0.11",
+    "popper.js": "^1.16.1",
     "quasar": "^2.6.0",
-    "vue": "^3.0.0",
+    "typescript": "^5.0.4",
+    "v-calendar": "^3.0.3",
+    "vue": "^3.2.47",
     "vue-router": "^4.0.0"
   },
   "devDependencies": {
-    "@quasar/app-webpack": "^3.0.0"
+    "@quasar/app-webpack": "^3.0.0",
+    "ts-node": "^10.9.1"
   },
   "browserslist": [
     "last 10 Chrome versions",
