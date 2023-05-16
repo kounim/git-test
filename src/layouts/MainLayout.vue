@@ -74,6 +74,12 @@ const linksList = [
     icon: 'home',
     link: '/reminder'
   },
+  {
+    title: 'DBtodoList',
+    caption: 'vue+database',
+    icon: 'chat',
+    link: '/dbtodo'
+  },
 
   /*
   {
