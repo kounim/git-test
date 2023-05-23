@@ -10,7 +10,13 @@ const routes = [
       { path: '/todo', component: () => import('pages/Todo.vue') },
       { path: '/reminder', component: () => import('pages/reminder.vue') },
       { path: '/dbtodo', component: () => import('pages/DbTodo.vue') },
+      { path: '/login', component: () => import('layouts/Login.vue') },
     ]
+  },
+
+  {
+    path: "/signin",
+    component: () => import("layouts/SignIn.vue"),
   },
 
   // Always leave this as last one,
